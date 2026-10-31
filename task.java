@@ -1,3 +1,5 @@
+import java.util.*;
+
 // Variables 
 int num = 120;
 String college = "aagac";
@@ -270,5 +272,82 @@ package day1-task;
 
 // java.lang,java.util,java.io,java.time,java.sql
 
+// List
 
+List<String> names = new ArrayList<>();
+
+names.add("Akash");
+names.add("Ranjith");
+names.add("Bharath");
+names.add("Parthi");
+
+Sysem.out.print(names);
+
+// Set
+
+List<int> num = new Hashset<>();
+
+names.add(10);
+names.add(10);
+names.add(20);
+names.add(20);
+
+Sysem.out.print(num);
+
+// Map
+
+Map<int , String> Students = new HashMap<>();
+
+Students.put(101,"Akash");
+Students.put(102,"Bharath");
+
+// Queue
+
+Queue<int> id = new LinkedList<>();
+
+Students.offer(1);
+Students.offer(2);
+Students.offer(3);
+
+// Generics
+
+class box<T> {
+    private T item;
+
+    public void set(T item) {
+        this.item = item ;
+    }
+    public void get() {
+        return item;
+    }
+}
+
+public class main() {
+    public static void(String[] args) {
+        box<String> box1 = new box<>();
+        box1.set("Akash");
+        String s =box1.get();
+
+        box<int> box2 = new box<>();
+        box2.set(10);
+        int num =box2.get();
+    }
+}
+
+// Lambda Expression
+
+ADD c = (a,b) -> {
+    int sum = a + b;
+    return sum;
+}
+
+// Stream API
+
+// filter
+// map
+// sorted
+// forEach
+// collect
+// count
+// reduce
 
