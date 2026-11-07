@@ -1,0 +1,2 @@
+Thread-1 | deposit | 5000.0 | Balance: 13000.0
+Thread-2 | withdraw | 2000.0 | Balance: 13000.0
